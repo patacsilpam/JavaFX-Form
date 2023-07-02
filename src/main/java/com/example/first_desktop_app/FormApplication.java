@@ -1,0 +1,26 @@
+package com.example.first_desktop_app;
+
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
+import java.io.IOException;
+
+public class FormApplication extends Application {
+    @Override
+    public void start(Stage stage) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(FormApplication.class.getResource("form-view.fxml"));
+        Scene scene = new Scene(fxmlLoader.load());
+        //scene.getStylesheets().add("main.css");
+        scene.getStylesheets().add(FormApplication.class.getResource("main.css").toExternalForm());
+       // scene.getStylesheets().add(getClass().getResource("main.css").toExternalForm());
+        stage.setTitle("Form");
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    public static void main(String[] args) {
+        launch();
+    }
+}
