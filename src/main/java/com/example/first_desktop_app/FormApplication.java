@@ -4,6 +4,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 
 import java.io.IOException;
 
@@ -17,6 +18,7 @@ public class FormApplication extends Application {
        // scene.getStylesheets().add(getClass().getResource("main.css").toExternalForm());
         stage.setTitle("Form");
         stage.setScene(scene);
+        stage.setResizable(false);
         stage.show();
     }
 
