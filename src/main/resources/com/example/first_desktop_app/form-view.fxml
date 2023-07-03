@@ -1,27 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
-<?import javafx.scene.shape.Circle?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="525.0" prefWidth="729.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e1e4e7" height="372.0" layoutX="14.0" layoutY="14.0" stroke="TRANSPARENT" strokeType="INSIDE" width="302.0" />
-      <Text layoutX="37.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Let us help you run your freelance business." wrappingWidth="238.4000244140625">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e1e4e7" height="476.0" layoutX="14.0" layoutY="14.0" stroke="TRANSPARENT" strokeType="INSIDE" width="302.0" />
+      <Text layoutX="34.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Let us help you run your freelance business." wrappingWidth="263.0">
          <font>
-            <Font name="SansSerif Bold" size="20.0" />
+            <Font name="SansSerif Bold" size="21.0" />
          </font>
       </Text>
-      <Text fill="#616263" layoutX="35.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Our registration process is quick and easy, taking no more than 10 minutes to complete." wrappingWidth="244.800048828125" />
-      <AnchorPane layoutX="31.0" layoutY="256.0">
+      <Text fill="#616263" layoutX="37.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Our registration process is quick and easy, taking no more than 10 minutes to complete." wrappingWidth="244.800048828125">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+      <AnchorPane layoutX="32.0" layoutY="293.0">
          <children>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#222436" height="126.0" layoutX="3.0" layoutY="-33.0" stroke="BLACK" strokeType="INSIDE" width="245.0" />
-            <Text fill="WHITE" layoutX="8.0" layoutY="-7.0" strokeType="OUTSIDE" strokeWidth="0.0" text="I'm impress with the results I've seen since starting to use this product, I begin receiving clients and projects in the first week." wrappingWidth="237.52750778198242" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#222436" height="163.0" layoutX="3.0" layoutY="-33.0" stroke="BLACK" strokeType="INSIDE" width="263.0" />
+            <Text fill="WHITE" layoutX="8.0" layoutY="-7.0" strokeType="OUTSIDE" strokeWidth="0.0" text="I'm impress with the results I've seen since starting to use this product, I begin receiving clients and projects in the first week." wrappingWidth="237.52750778198242">
+               <font>
+                  <Font size="16.0" />
+               </font></Text>
          </children>
       </AnchorPane>
-      <Circle fx:id="circle" fill="DODGERBLUE" layoutX="456.0" layoutY="159.0" radius="100.0" stroke="BLACK" strokeType="INSIDE"  />
+      <TextField layoutX="341.0" layoutY="142.0" prefHeight="38.0" prefWidth="343.0" />
+      <Text layoutX="340.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Get Started">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#616263" layoutX="341.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create your account now" wrappingWidth="142.13665771484375" />
+      <Text layoutX="342.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First Name" wrappingWidth="356.29126167297363" />
+      <TextField layoutX="342.0" layoutY="217.0" prefHeight="38.0" prefWidth="342.0" />
+      <Text layoutX="342.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Name" wrappingWidth="356.29126167297363" />
+      <TextField layoutX="342.0" layoutY="296.0" prefHeight="38.0" prefWidth="342.0" />
+      <Text layoutX="342.0" layoutY="289.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" wrappingWidth="356.29126167297363" />
+      <TextField layoutX="342.0" layoutY="371.0" prefHeight="38.0" prefWidth="342.0" />
+      <Text layoutX="342.0" layoutY="364.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" wrappingWidth="356.29126167297363" />
+      <Button id="sign_up_button" layoutX="346.0" layoutY="426.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="341.0" text="Sign Up" textFill="WHITE" />
+      <Text layoutX="432.0" layoutY="488.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Have an account?" />
+      <Text fill="#2638c4" layoutX="529.0" layoutY="488.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login" />
    </children>
 </Pane>
