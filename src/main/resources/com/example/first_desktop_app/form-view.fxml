@@ -39,10 +39,10 @@
       <Text layoutX="342.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First Name" wrappingWidth="356.29126167297363" />
       <TextField layoutX="342.0" layoutY="217.0" prefHeight="38.0" prefWidth="342.0" />
       <Text layoutX="342.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Name" wrappingWidth="356.29126167297363" />
-      <TextField layoutX="342.0" layoutY="296.0" prefHeight="38.0" prefWidth="342.0" />
-      <Text layoutX="342.0" layoutY="289.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" wrappingWidth="356.29126167297363" />
-      <TextField layoutX="342.0" layoutY="371.0" prefHeight="38.0" prefWidth="342.0" />
-      <Text layoutX="342.0" layoutY="364.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" wrappingWidth="356.29126167297363" />
+      <TextField layoutX="344.0" layoutY="296.0" prefHeight="38.0" prefWidth="342.0" />
+      <Text layoutX="346.0" layoutY="289.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" wrappingWidth="356.29126167297363" />
+      <TextField layoutX="346.0" layoutY="371.0" prefHeight="38.0" prefWidth="342.0" />
+      <Text layoutX="347.0" layoutY="364.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" wrappingWidth="356.29126167297363" />
       <Button id="sign_up_button" layoutX="346.0" layoutY="426.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="341.0" text="Sign Up" textFill="WHITE" />
       <Text layoutX="432.0" layoutY="488.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Have an account?" />
       <Text fill="#2638c4" layoutX="529.0" layoutY="488.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login" />
