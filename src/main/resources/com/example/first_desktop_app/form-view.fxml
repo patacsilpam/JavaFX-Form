@@ -45,6 +45,6 @@
       <Text layoutX="347.0" layoutY="364.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" wrappingWidth="356.29126167297363" />
       <Button id="sign_up_button" layoutX="346.0" layoutY="426.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="341.0" text="Sign Up" textFill="WHITE" />
       <Text layoutX="432.0" layoutY="488.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Have an account?" />
-      <Text fill="#2638c4" layoutX="529.0" layoutY="488.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login" />
+      <Button layoutX="526.0" layoutY="471.0" mnemonicParsing="false" onAction="#switchToLoginForm" style="-fx-background-color: transparent;" text="Login" textFill="#251bb7" />
    </children>
 </Pane>
